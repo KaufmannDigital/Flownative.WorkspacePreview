@@ -1,0 +1,35 @@
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.linkView {
+    margin: 0;
+    padding: 8px 12px;
+    background-color: var(--colors-ContrastDarkest);
+    justify-content: center;
+    min-height: 56px;
+    align-items: center;
+    display: flex;
+}
+
+.linkViewLabel {
+    margin-bottom: 4px;
+    display: block;
+}
+
+.linkViewButton {
+    width: 100%;
+}
+
+.linkViewError {
+    font-style: italic;
+    color: #999;
+}
+
+.loader {
+    animation: spin 2s linear infinite;
+    transform-origin: center center;
+    will-change: transform;
+}

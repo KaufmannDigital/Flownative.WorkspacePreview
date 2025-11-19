@@ -1,9 +1,31 @@
-.style__cropButton___3odXg {
-    float: right;
+/* css-modules:css-modules://vD-SEkC_wFeGTxQ6NJ_eLBi8FpErhPtdi5zHLF6CRhk.css */
+@keyframes gDna_a_spin {
+  to {
+    transform: rotate(360deg);
+  }
 }
-.style__button___dzDZN {
-    margin-right: 4px !important;
+.gDna_a_linkView {
+  background-color: var(--colors-ContrastDarkest);
+  justify-content: center;
+  align-items: center;
+  min-height: 56px;
+  margin: 0;
+  padding: 8px 12px;
+  display: flex;
 }
-
-
-/*# sourceMappingURL=Plugin.css.map*/
+.gDna_a_linkViewLabel {
+  margin-bottom: 4px;
+  display: block;
+}
+.gDna_a_linkViewButton {
+  width: 100%;
+}
+.gDna_a_linkViewError {
+  color: #999;
+  font-style: italic;
+}
+.gDna_a_loader {
+  transform-origin: center;
+  will-change: transform;
+  animation: 2s linear infinite gDna_a_spin;
+}

@@ -38,6 +38,9 @@ Neos:
         javascript:
           'Flownative.WorkspacePreview:Addons':
             resource: '${"resource://Flownative.WorkspacePreview/Public/LinkView/Plugin.js"}'
+        stylesheets:
+          'Flownative.WorkspacePreview:Addons':
+            resource: '${"resource://Flownative.WorkspacePreview/Public/LinkView/Plugin.css"}'
 
 Flownative:
   TokenAuthentication:

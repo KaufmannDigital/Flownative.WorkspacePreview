@@ -7,8 +7,7 @@
           group: 'nodeInfo'
           position: 20
           view: 'Flownative.WorkspacePreview/LinkView'
-          viewOptions:
-            dataSource: 'PreviewLinkView'
+
 
 'Neos.Neos:Document':
   superTypes:

@@ -1,16 +1,15 @@
 {
     "scripts": {
-        "build": "NODE_ENV=production neos-react-scripts build",
-        "watch": "neos-react-scripts watch"
-    },
-    "neos": {
-        "buildTargetDirectory": "../../../Public/LinkView"
+        "build": "node build.js",
+        "watch": "node build.js --watch"
     },
     "dependencies": {
         "plow-js": "^2.2.0",
-        "react-clipboard.js": "^2.0.15"
+        "react-clipboard.js": "^2.0.15",
+        "esbuild-plugin-lightningcss-modules": "^0.1.2"
     },
     "devDependencies": {
-        "@neos-project/neos-ui-extensibility": "^2.2"
+        "@neos-project/neos-ui-extensibility": "~8.3.0",
+        "esbuild": "~0.17.18"
     }
 }
