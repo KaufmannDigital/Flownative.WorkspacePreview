@@ -38,7 +38,7 @@ class NodeConverterAspect
         try {
             if (
                 $workspaceName !== 'live' &&
-                $this->securityContext->hasRole('Flownative.WorkspacePreview:WorkspacePreviewer') &&
+                $this->securityContext->hasRole('Flownative.WorkspacePreview:WorkspacePreviewer') ||
                 $this->userInterfaceModeService->findModeByCurrentUser()->isPreview()
             ) {
                 $contextProperties['invisibleContentShown'] = false;
