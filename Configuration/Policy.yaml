@@ -19,6 +19,8 @@ roles:
         permission: GRANT
   # Do not rename this role, the name is used in code.
   'Flownative.WorkspacePreview:WorkspacePreviewer':
+    label: 'Workspace Preview'
+    description: 'Do not assign this role manually. It is only used for token authentication when viewing workspace preview links.'
     privileges:
       - privilegeTarget: 'Flownative.WorkspacePreview:PreviewWorkspaceByToken'
         permission: GRANT
